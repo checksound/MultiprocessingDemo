@@ -60,4 +60,4 @@ L'esempio [MultiprocessingDemo2](./src/MultiprocessingDemo2.java) utilizza `Conc
 L'esempio [MultiprocessingDemo3](./src/MultiprocessingDemo3.java) utilizza `LinkedBlockingQueue<Runnable> taskQueue` per suddividere il lavoro tra i diversi thread; il numero dei thread utilizzati dall'applicazione è stabilito in base al numero dei processori.
 
 L'esempio [MultiprocessingDemo4](./src/MultiprocessingDemo4.java) è
-una semplice variazione di `javanotes8.MultiprocessingDemo3` che utilizza `ExecutorService` invece di usare i thread e la blocking queue direttamente. 
+una semplice variazione di `MultiprocessingDemo3` che utilizza `ExecutorService` invece di usare i thread e la blocking queue direttamente. 
